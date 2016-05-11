@@ -1,8 +1,11 @@
 package com.company;
 
 import java.io.*;
+<<<<<<< HEAD
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
+=======
+>>>>>>> refs/heads/branch_one
 import java.util.*;
 
 public class Main {
@@ -14,12 +17,18 @@ public class Main {
         String str = "";
         try {
             str = in.readLine();
+<<<<<<< HEAD
             TestRegexp.doMatch(str);
+=======
+>>>>>>> refs/heads/branch_one
             String strAfter = str.replace(";", "; \n");
             String strAfter2 = strAfter.replace("{", "{ \n");
             String strAfter3 = strAfter2.replace("}", "} \n");
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/heads/branch_one
             System.out.println(strAfter3);
         }
         catch(Exception e) {
@@ -34,7 +43,12 @@ public class Main {
             System.out.print(sc.next());;
         } */
     }
+<<<<<<< HEAD
 }
 
 
 
+=======
+
+}
+>>>>>>> refs/heads/branch_one
